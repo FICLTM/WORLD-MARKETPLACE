@@ -196,7 +196,14 @@ export default function Discover() {
         }}
       >
         {products.map((product, index) => (
-          <article key={product.name}>
+          <a
+            href="/product"
+            key={product.name}
+            style={{
+              colour: 'inherit",
+                textdecoration: "none",
+        }}
+        >
             <div
               style={{
                 aspectRatio: "4 / 5",
@@ -255,7 +262,7 @@ export default function Discover() {
 
               <strong style={{ fontSize: 13 }}>{product.price}</strong>
             </div>
-          </article>
+          </a>
         ))}
       </section>
     </main>
