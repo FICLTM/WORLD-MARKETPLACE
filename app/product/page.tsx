@@ -1,4 +1,8 @@
-export default function ProductPage() {
+export default async function ProductPage() {
+  searchParams,
+    }: {
+  searchParams:Promise<{name?:string;price?:string}>;
+}) {
   return (
     <main
       style={{
