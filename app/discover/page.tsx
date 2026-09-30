@@ -197,7 +197,7 @@ export default function Discover() {
       >
         {products.map((product, index) => (
           <a
-            href="/product"
+            href={`/product?name=${encodeURIComponent(product.name)}&price=${encodeURIComponent(product.price)}`}
             key={product.name}
             style={{
               color: "#111",
