@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main
@@ -89,7 +90,8 @@ export default function Home() {
             worlds.
           </h1>
 
-          <button
+          <link
+            href="/discover"
             style={{
               padding: "15px 25px",
               background: "white",
@@ -99,7 +101,7 @@ export default function Home() {
             }}
           >
             EXPLORE WORLDS →
-          </button>
+          </link>
         </div>
       </section>
 
