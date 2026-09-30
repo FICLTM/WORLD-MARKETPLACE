@@ -201,7 +201,7 @@ export default function Discover() {
             key={product.name}
             style={{
               color: "#111",
-                textdecoration: "none",
+                textDecoration: "none",
         }}
         >
             <div
