@@ -200,7 +200,7 @@ export default function Discover() {
             href="/product"
             key={product.name}
             style={{
-              colour: 'inherit",
+              colour: "#111",
                 textdecoration: "none",
         }}
         >
